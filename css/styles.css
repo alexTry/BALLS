@@ -1,0 +1,117 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #172550 url('../img/balls.jpg');
+	background-repeat: repeat;
+	background-size: auto;
+	background-position: center top;
+	background-attachment: fixed;
+}
+h1{
+	font-family: /* 'Phosphate', */sans-serif;
+	font-style: italic;
+	padding-top: 15px;
+	font-size: 40px;
+	letter-spacing: 3px;
+	color: #fff69e;
+	text-align: center;
+	text-transform:  uppercase;
+	font-weight: 600;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: #345678;
+	text-shadow: 1px 1px 6px black;
+	filter: Shadow(Color=#000000, Direction=135, Strength=6);
+	cursor: pointer;
+}
+
+.wrap{
+	position: relative;
+	display: block;
+	background-color: #BADA55;
+	width: 900px;
+	height: 550px;
+	margin: 10px auto;
+	overflow: hidden;
+/* 	background-color: rgba(248, 248, 255, 0.76); */
+	background-color: rgba(0, 23, 47, 0.7);
+	border-radius: 1px;
+	box-shadow: 0px 0px 12px 1px #09173a;
+	filter: progid:DXImageTransform.Microsoft.shadow(direction=0, color=#09173a, strength=12);
+
+}
+.myPlate, .animyPlate{
+	position: relative;
+	top: 75px;
+	float: left;
+	width: 300px;
+	height: 400px;
+	background-color: rgba(33, 33, 52, 0.94);
+	border: 3px solid rgba(167, 237, 255, 0.92);
+	border-radius: 8px;
+
+	margin-left: 75px;
+}
+.myPlate{
+	margin-right: 75px;
+}
+
+
+.ball{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(51, 51, 51, 1);
+	background: -webkit-radial-gradient(25px 25px, circle contain, #fff, rgba(51, 51, 51, 1) );
+	background: -ms-radial-gradient(25px 25px, circle contain, #fff,rgba(51, 51, 51, 1));
+/* 	background: -moz-radial-gradient(25px 25px, circle contain, #fff,rgba(51, 51, 51, 1)); */
+	background: radial-gradient(25px 25px, circle contain, #fff, rgba(51, 51, 51, 1));
+/* 	border: 1px solid rgba(20, 78, 128, 0.76); */
+	border-radius: 50%;
+	z-index: 1000;
+
+}
+.ballPlay{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: rgba(4, 127, 220, 0.79);
+	background: -webkit-radial-gradient(25px 25px, circle contain, #fff, #057edb);
+	background: -ms-radial-gradient(25px 25px, circle contain, #fff, #057edb);
+/* 	background: -moz-radial-gradient(25px 25px, circle contain, #fff, #057edb); */
+	background: radial-gradient(25px 25px, circle contain, #fff, #057edb);
+/* 	border: 1px solid rgba(20, 78, 128, 0.76); */
+	border-radius: 50%;
+	z-index: 1000;
+
+}
+.select{
+	background-color: rgba(245, 46, 20, 0.9);
+	background: -webkit-radial-gradient(25px 25px, circle contain, #ffefb3,rgba(245, 46, 20, 1));
+	background: -ms-radial-gradient(25px 25px, circle contain, #ffefb3,rgba(245, 46, 20, 1));
+/* 	background: -moz-radial-gradient(25px 25px, circle contain, #ffefb3,rgba(245, 46, 20, 1)); */
+	background: radial-gradient(25px 25px, circle contain, #ffefb3,rgba(245, 46, 20, 1));
+/* 	border: 1px solid rgba(20, 78, 128, 0.76); */
+	border-radius: 50%;
+	z-index: 1001;
+}
+
+.ball:hover, .ballPlay:hover{
+	cursor: pointer;
+}
+
+.copyright {
+	position: absolute;
+	text-decoration: none;
+	text-align: center;
+	font-family: sans-serif;
+	bottom: 50% ;
+	right: 44%;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	font-size: 0.5em;
+/* 	transform: rotate(-90deg); */
+}
+
+
+
