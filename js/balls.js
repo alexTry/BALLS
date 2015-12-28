@@ -147,7 +147,7 @@ function fixPageXY(e) {
 	}
 	Ball.prototype.checkPosition = function () {
 
-		if (((this.x > 410) && (this.x < 750)) && ((this.y > -40) && (this.y < 395))) {
+		if (((this.x > 455) && (this.x < 705)) && ((this.y > -40) && (this.y < 395))) {
 			for (var i = 0; i < arguments.length; i += 1) {
 				this[arguments[i]](true);
 			}
