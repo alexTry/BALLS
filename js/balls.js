@@ -220,11 +220,11 @@ function fixPageXY(e) {
 			});
 		}
 	} else {
+		var num = 10, ball = [];
+		for (var i = 0, j= num; i < j; i += 1) {
+			ball[i] = new Ball();
+		}
 
-		var ball_1 = new Ball(),
-		ball_2 = new Ball(),
-		ball_3 = new Ball(),
-		ball_4 = new Ball();
 		$.Storage.set('setArea',JSON.stringify(Ball.setArea));
 	}
 
