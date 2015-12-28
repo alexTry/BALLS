@@ -107,8 +107,8 @@ h1{
 	font-family: sans-serif;
 	bottom: 50% ;
 	right: 44%;
-	background-color: rgba(255, 255, 255, 0.1);
-	color: #fff;
+/* 	background-color: rgba(25, 25, 25, 0.9); */
+	color: #ed8821;
 	font-size: 0.5em;
 /* 	transform: rotate(-90deg); */
 }
